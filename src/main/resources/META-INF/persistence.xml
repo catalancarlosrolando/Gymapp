@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0"
+             xmlns="https://jakarta.ee/xml/ns/persistence">
+
+    <persistence-unit name="AppGimnasio" transaction-type="JTA">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <jta-data-source>jdbc/bdgimnasio</jta-data-source>
+        <class>entidad.Plan</class>
+        <class>entidad.Cuenta</class>
+        <class>entidad.Perfil</class>
+        <class>entidad.Rutina</class>
+        <class>entidad.Ejercicio</class>
+        <class>entidad.RutinaHasEjercicio</class>
+        <class>entidad.RutinaHasEjercicioPK</class>
+        <class>entidad.SesionActiva</class>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <property name="eclipselink.logging.level" value="INFO"/>
+            <property name="jakarta.persistence.schema-generation.database.action" value="none"/>
+        </properties>
+    </persistence-unit>
+</persistence>
