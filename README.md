@@ -16,9 +16,6 @@ Proyecto web Java Enterprise que adapta el **modelo de planes de Netflix** a un 
 5. [Funcionalidades](#5-funcionalidades)
 6. [Instalación y ejecución](#6-instalación-y-ejecución)
 7. [Calidades del proyecto](#7-calidades-del-proyecto)
-8. [Errores conocidos y limitaciones](#8-errores-conocidos-y-limitaciones)
-9. [Mejoras futuras](#9-mejoras-futuras)
-10. [Autor y licencia](#10-autor-y-licencia)
 
 ---
 
